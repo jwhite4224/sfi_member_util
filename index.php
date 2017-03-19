@@ -6,7 +6,7 @@ class SFI_Member_Util
     {
         $authorized = false;
 
-        $whitelisted_ips = array('127.0.0.1');
+        $whitelisted_ips = array('127.0.0.1', '50.87.151.12');
 
         $message = date('Y-m-d H:i:s', time()).' Membership Verification Request originated from '.$remote_addr;
         
